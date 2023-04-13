@@ -8,30 +8,30 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, #FFFFFF, #FF1493)
+    background-image: linear-gradient(to bottom, #FFA1CF, #FFD6EC)
 }
 
 
 
 marquee{
-    background-color: #45f3ff;
+    background-color: #FF74B1;
     margin-top: -10px;
     padding: 20px 0;
     font-weight: bolder;
     font-size: 25px;
-    color: #fd0c71;
+    color: #FFFFFF;
 }
 
 .container{
     width: 100%;
-    background-color: #FFFF00;
+    background-color: #A7FFE4;
     padding: 0;
 }
 
 
 
 .navbar h1{
-    color: red;
+    color: #FFFFFF;
     margin: 40px 40px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
@@ -97,7 +97,7 @@ marquee{
     text-align: center;
     font-size: 50px;
     color: white;
-    margin: 100px 580px 0px 580px; 
+    margin: 100px 730px 0px 730px; 
     padding: 10px 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
@@ -181,7 +181,7 @@ marquee{
     text-align: center;
     font-size: 50px;
     color: white;
-    margin: 100px 630px 70px 630px; 
+    margin: 100px 730px 70px 730px; 
     padding: 10px 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
@@ -226,7 +226,7 @@ marquee{
 }
 
 .the-end{
-    background-color: yellow;
+    background-color: #A7FFE4;
     margin-top: 20px;
     text-align: center;
     margin-bottom: -10px;
@@ -292,6 +292,21 @@ marquee{
 .love-three{
     display: flex;
 }
+
+.love-for{
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.love-five{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.love-six{
+    display: flex;
+}
 .box{
     position: relative;
     width: 380px;
@@ -343,7 +358,7 @@ marquee{
 .form1{
     position: absolute;
     z-index: 10;
-    background-image: url(img2.png);
+    background-image: url(img1.png);
     background-size: 420px;
     inset: 5px;
     border-radius: 8px;
@@ -355,7 +370,7 @@ marquee{
 .form2{
     position: absolute;
     z-index: 10;
-    background-image: url(img1.png);
+    background-image: url(img2.png);
     background-size: 420px;
     inset: 5px;
     border-radius: 8px;
@@ -441,6 +456,115 @@ marquee{
     position: absolute;
     z-index: 10;
     background-image: url(img9.png);
+    background-size: 420px;
+    inset: 5px;
+    border-radius: 8px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form10{
+    position: absolute;
+    z-index: 10;
+    background-image: url(img10.png);
+    background-size: 420px;
+    inset: 5px;
+    border-radius: 8px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form11{
+    position: absolute;
+    z-index: 10;
+    background-image: url(img11.png);
+    background-size: 420px;
+    inset: 5px;
+    border-radius: 8px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form12{
+    position: absolute;
+    z-index: 10;
+    background-image: url(img12.png);
+    background-size: 420px;
+    inset: 5px;
+    border-radius: 8px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form13{
+    position: absolute;
+    z-index: 10;
+    background-image: url(img13.png);
+    background-size: 420px;
+    inset: 5px;
+    border-radius: 8px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form14{
+    position: absolute;
+    z-index: 10;
+    background-image: url(img14.png);
+    background-size: 420px;
+    inset: 5px;
+    border-radius: 8px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form15{
+    position: absolute;
+    z-index: 10;
+    background-image: url(img15.png);
+    background-size: 420px;
+    inset: 5px;
+    border-radius: 8px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form16{
+    position: absolute;
+    z-index: 10;
+    background-image: url(img16.png);
+    background-size: 420px;
+    inset: 5px;
+    border-radius: 8px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form17{
+    position: absolute;
+    z-index: 10;
+    background-image: url(img17.png);
+    background-size: 420px;
+    inset: 5px;
+    border-radius: 8px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form18{
+    position: absolute;
+    z-index: 10;
+    background-image: url(img18.png);
     background-size: 420px;
     inset: 5px;
     border-radius: 8px;
@@ -655,11 +779,7 @@ marquee{
     }
 
 
-    .love-one{
-        display: inline;
-       
-    }
-
+    
     .box{
         width: 350px;
         margin-bottom: 20px;
@@ -668,7 +788,11 @@ marquee{
     .form1{
         text-align: center;
     }
-
+    
+    .love-one{
+        display: inline;
+       
+    }
 
     .love-two{
         display: inline;
@@ -677,6 +801,19 @@ marquee{
     .love-three{
         display: inline;
     }
+
+    .love-for{
+        display: inline;
+    }
+
+    .love-five{
+        display: inline;
+    }
+
+    .love-six{
+        display: inline;
+    }
+
 
     .contact-text h1{
         text-align: center;
